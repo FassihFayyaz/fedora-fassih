@@ -50,6 +50,7 @@ to resume, start over, or quit.
 | 10 | `scripts/10-pam-keyring.sh` | PAM: authselect `with-pam-gnome-keyring` + login-keyring password sync |
 | 11 | `scripts/11-url-handler.sh` | xdg-utils + `dms-open.desktop` as the default web-browser handler |
 | 12 | `scripts/12-flatpak.sh` | Flatpak runtime + Flathub repository |
+| 13 | `scripts/13-fonts.sh` | FontAwesome, JetBrains Mono Nerd (cubewhy/copr), Droid fonts |
 
 ## Post-setup checks
 
