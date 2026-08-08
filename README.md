@@ -44,6 +44,7 @@ to resume, start over, or quit.
 | 4 | `scripts/04-audio.sh` | PipeWire audio stack (pipewire, pulse, wireplumber) |
 | 5 | `scripts/05-desktop.sh` | RPMFusion **free**, multimedia group upgrade, fastfetch |
 | 6 | `scripts/06-apps.sh` | zen-browser, vesktop, media mount points, ntfs-3g, thunar, gnome-disk-utility |
+| 7 | `scripts/07-dms.sh` | DankLinux installer: niri WM + Alacritty + dms-greeter (interactive), reboot |
 
 ## Requirements
 
