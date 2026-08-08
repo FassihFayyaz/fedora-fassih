@@ -8,7 +8,7 @@ log "Setting graphical.target as default boot target..."
 sudo systemctl set-default graphical.target
 
 log "Installing base packages..."
-sudo dnf install which wget pciutils usbutils linux-firmware
+sudo dnf install which wget pciutils usbutils linux-firmware power-profiles-daemon
 
 log "Installing user dirs support..."
 sudo dnf install xdg-user-dirs
