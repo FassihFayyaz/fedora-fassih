@@ -10,5 +10,10 @@ sudo dnf install flatpak
 log "Adding the Flathub repository..."
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
+log "Installing Flatpak apps from Flathub..."
+flatpak install -y flathub com.github.tchx84.Flatseal
+flatpak install -y flathub com.github.wwmm.easyeffects
+flatpak install -y flathub com.stremio.Stremio
+
 log "Flathub remotes:"
 flatpak remotes
