@@ -15,9 +15,12 @@ sudo dnf install \
 
 log "Writing ~/.config/xdg-desktop-portal/portal.conf..."
 mkdir -p "$HOME/.config/xdg-desktop-portal"
+# default=gnome (single backend) is what makes Steam's "Add Non-Steam Game"
+# file picker appear. default=gnome;gtk left the FileChooser unbound and the
+# dialog never mapped. Keep it as a single gnome backend.
 cat > "$HOME/.config/xdg-desktop-portal/portal.conf" <<'EOF'
 [preferred]
-default=gnome;gtk
+default=gnome
 org.freedesktop.impl.portal.Screenshot=wlr
 org.freedesktop.impl.portal.ScreenCast=wlr
 EOF
