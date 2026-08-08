@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-# Enable RPMFusion free + nonfree, then upgrade.
+# Enable RPMFusion nonfree (for proprietary NVIDIA driver), then upgrade.
+# RPMFusion free is enabled later in 05-desktop.sh (multimedia codecs).
 set -euo pipefail
 
 log() { printf '\033[1;34m[01-repos]\033[0m %s\n' "$*"; }
 
-log "Enabling RPMFusion free + nonfree..."
+log "Enabling RPMFusion nonfree..."
 sudo dnf install \
-    "https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm" \
     "https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm"
 
 log "Upgrading core group..."
