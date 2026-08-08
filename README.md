@@ -48,6 +48,16 @@ to resume, start over, or quit.
 | 8 | `scripts/08-portals.sh` | XDG desktop portals: gnome/gtk/wlr backends + preferred portal.conf |
 | 9 | `scripts/09-keyring.sh` | GNOME Keyring (gnome-keyring, -pam, seahorse) + portal Secret provider |
 | 10 | `scripts/10-pam-keyring.sh` | PAM: authselect `with-pam-gnome-keyring` + login-keyring password sync |
+| 11 | `scripts/11-url-handler.sh` | xdg-utils + `dms-open.desktop` as the default web-browser handler |
+
+## Post-setup checks
+
+Quick manual verification after the desktop is up:
+
+- [ ] Keyboard function keys (volume, mute, brightness)
+- [ ] Camera
+- [ ] Screen sharing / recording
+- [ ] External monitor
 
 ## Requirements
 
