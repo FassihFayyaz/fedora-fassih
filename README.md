@@ -43,7 +43,7 @@ to resume, start over, or quit.
 | 3 | `scripts/03-nvidia.sh` | NVIDIA driver (`akmod-nvidia`) + CUDA |
 | 4 | `scripts/04-audio.sh` | mpv (before ffmpeg swap) + PipeWire audio stack |
 | 5 | `scripts/05-desktop.sh` | RPMFusion **free**, multimedia group upgrade, ffmpeg swap, Qt/GTK theming, fastfetch |
-| 6 | `scripts/06-apps.sh` | zen-browser, vesktop, media mount points, ntfs-3g, thunar, gnome-disk-utility, Zed, opencode |
+| 6 | `scripts/06-apps.sh` | zen-browser, vesktop, media mount points, ntfs-3g, thunar, gnome-disk-utility, Zed, opencode, Steam/goverlay/mangohud |
 | 7 | `scripts/07-dms.sh` | DankLinux installer: niri WM + Alacritty + dms-greeter (interactive), reboot |
 | 8 | `scripts/08-portals.sh` | XDG desktop portals: gnome/gtk/wlr backends + preferred portal.conf |
 | 9 | `scripts/09-keyring.sh` | GNOME Keyring (gnome-keyring, -pam, seahorse) + portal Secret provider |
