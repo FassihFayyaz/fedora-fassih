@@ -18,3 +18,7 @@ log "Installing and enabling NetworkManager (with wifi)..."
 sudo dnf install NetworkManager NetworkManager-wifi
 sudo systemctl enable --now NetworkManager
 nmcli device status
+
+log "Installing and enabling Bluetooth (bluez)..."
+sudo dnf install bluez bluez-libs
+sudo systemctl enable --now bluetooth

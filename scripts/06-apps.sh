@@ -4,9 +4,10 @@ set -euo pipefail
 
 log() { printf '\033[1;34m[06-apps]\033[0m %s\n' "$*"; }
 
-log "Installing zen-browser (Copr)..."
-sudo dnf install zen-browser
+log "Enabling zen-browser COPR repo..."
 sudo dnf copr enable sneexy/zen-browser
+
+log "Installing zen-browser..."
 sudo dnf install zen-browser
 
 log "Installing vesktop..."
