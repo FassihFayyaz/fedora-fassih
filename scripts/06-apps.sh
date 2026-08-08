@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Apps: zen-browser, vesktop, media mount points, ntfs-3g, thunar, disk utility, Zed, opencode, Steam/gaming.
+# Apps: zen-browser, vesktop, media mount points, ntfs-3g, thunar, disk utility, Zed, opencode.
 set -euo pipefail
 
 log() { printf '\033[1;34m[06-apps]\033[0m %s\n' "$*"; }
@@ -35,6 +35,3 @@ curl -f https://zed.dev/install.sh | sh
 
 log "Installing opencode (AI coding tool)..."
 curl -fsSL https://opencode.ai/install | bash
-
-log "Installing gaming tools (Steam, GOverlay, MangoHud)..."
-sudo dnf install steam goverlay mangohud
