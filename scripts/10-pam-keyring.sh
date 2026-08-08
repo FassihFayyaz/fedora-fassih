@@ -10,11 +10,6 @@
 #   4. Ensures /etc/pam.d/passwd runs pam_gnome_keyring use_authtok so that
 #      changing your account password also updates the login keyring password.
 #
-# NOTE: 'with-pam-gnome-keyring' is NOT fingerprint auth. Fingerprint is the
-# separate 'with-fingerprint' feature and is only needed with fingerprint
-# hardware. This machine has no fingerprint reader, so nothing here is about
-# fingerprints.
-#
 # greetd caveat: if you log in through greetd (e.g. dms-greeter), also check
 # that greeter's PAM service for pam_gnome_keyring.so lines, because authselect
 # only manages system-auth/system-login — the greeter may use its own stack.
