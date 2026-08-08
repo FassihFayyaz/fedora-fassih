@@ -42,7 +42,7 @@ to resume, start over, or quit.
 | 2 | `scripts/02-system.sh` | graphical.target, base packages, user dirs, NetworkManager |
 | 3 | `scripts/03-nvidia.sh` | NVIDIA driver (`akmod-nvidia`) + CUDA |
 | 4 | `scripts/04-audio.sh` | PipeWire audio stack (pipewire, pulse, wireplumber) |
-| 5 | `scripts/05-desktop.sh` | RPMFusion **free**, multimedia group upgrade, fastfetch |
+| 5 | `scripts/05-desktop.sh` | RPMFusion **free**, multimedia group upgrade, ffmpeg swap, Qt base, fastfetch |
 | 6 | `scripts/06-apps.sh` | zen-browser, vesktop, media mount points, ntfs-3g, thunar, gnome-disk-utility |
 | 7 | `scripts/07-dms.sh` | DankLinux installer: niri WM + Alacritty + dms-greeter (interactive), reboot |
 | 8 | `scripts/08-portals.sh` | XDG desktop portals: gnome/gtk/wlr backends + preferred portal.conf |
