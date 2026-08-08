@@ -20,6 +20,19 @@ cd fedora-fassih
 `install.sh` runs the scripts in `scripts/` in order. You can also run
 individual scripts, e.g. `./install.sh 03-nvidia`.
 
+### Checkpoints & resume
+
+`install.sh` records each completed script in a `.progress` file. The NVIDIA
+step (`03-nvidia`) ends by asking you to reboot; after rebooting, continue from
+where you left off:
+
+```bash
+./install.sh --resume
+```
+
+Running `./install.sh` with no args also detects existing progress and offers
+to resume, start over, or quit.
+
 ## Scripts
 
 | # | Script | What it does |
