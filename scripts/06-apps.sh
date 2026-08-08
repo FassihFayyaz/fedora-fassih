@@ -29,3 +29,9 @@ sudo dnf in thunar
 
 log "Installing gnome-disk-utility..."
 sudo dnf install gnome-disk-utility
+
+log "Installing Zed (code editor)..."
+curl -f https://zed.dev/install.sh | sh
+
+log "Installing opencode (AI coding tool)..."
+curl -fsSL https://opencode.ai/install | bash
