@@ -24,6 +24,7 @@ individual scripts, e.g. `./install.sh 03-nvidia`.
 
 | # | Script | What it does |
 |---|--------|--------------|
+| 0 | `scripts/00-dnf-conf.sh` | DNF speed: `max_parallel_downloads=10`, `defaultyes=True` |
 | 1 | `scripts/01-repos.sh` | Enable RPMFusion free + nonfree, group upgrade core, upgrade --refresh |
 | 2 | `scripts/02-system.sh` | graphical.target, base packages, user dirs, NetworkManager |
 | 3 | `scripts/03-nvidia.sh` | NVIDIA driver (`akmod-nvidia`) + CUDA |
