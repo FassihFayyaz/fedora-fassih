@@ -11,5 +11,8 @@ sudo dnf install \
 log "Upgrading multimedia group (codecs)..."
 sudo dnf group upgrade multimedia --exclude=PackageKit-gstreamer-plugin
 
+log "Swapping ffmpeg-free for full ffmpeg (RPMFusion)..."
+sudo dnf swap ffmpeg-free ffmpeg --allowerasing
+
 log "Installing fastfetch..."
 sudo dnf install fastfetch
