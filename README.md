@@ -49,6 +49,7 @@ to resume, start over, or quit.
 | 9 | `scripts/09-keyring.sh` | GNOME Keyring (gnome-keyring, -pam, seahorse) + portal Secret provider |
 | 10 | `scripts/10-pam-keyring.sh` | PAM: authselect `with-pam-gnome-keyring` + login-keyring password sync |
 | 11 | `scripts/11-url-handler.sh` | xdg-utils + `dms-open.desktop` as the default web-browser handler |
+| 12 | `scripts/12-flatpak.sh` | Flatpak runtime + Flathub repository |
 
 ## Post-setup checks
 
